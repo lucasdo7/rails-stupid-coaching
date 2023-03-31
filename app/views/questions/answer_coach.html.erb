@@ -1,0 +1,25 @@
+<div class="container">
+  <div class= "working" >
+    <h1>Stupid Answer</h1>
+
+    <blockquote>
+      <p>
+        <% if @question.blank? %>
+          😶
+        <% else %>
+          <%= @question %>
+        <% end %>
+      </p>
+      <cite>You</cite>
+    </blockquote>
+
+    <blockquote class="coach">
+      <p><%= @answer %></p>
+      <cite>Your coach</cite>
+    </blockquote>
+
+    <%= link_to 'HomePage', root_path, class: 'btn btn-primary my-3' %>
+    <br>
+    <%= link_to 'Ask new Question', ask_path, class: 'btn btn-primary' %>
+  </div>
+</div>
