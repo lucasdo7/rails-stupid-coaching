@@ -45,16 +45,24 @@ cite:before {
   content: '— ';
 }
 
-/* margin: 2px 1em 0 auto; */
 .working {
-  width: 1000px;
   margin: 30px 30px auto;
   background: rgb(226, 222, 222);
-  padding: 60px;
-  border-radius: 4px;
+  padding: 100px;
+  border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .margin {
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 50px;
+}
+
+.image {
+  background-image: url('https://thecomeback.com/wp-content/uploads/2016/12/rex_121816.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding {
+  padding: 220px;
 }
